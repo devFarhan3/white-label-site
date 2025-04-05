@@ -37,7 +37,7 @@
 <body class="index-page">
 
   <header id="header" class="header d-flex align-items-center sticky-top">
-    <div class="container-fluid container-xl position-relative d-flex align-items-center">
+    <div class="container-fluid container-xl container-xxl position-relative d-flex align-items-center ">
 
       <a href="index.php" class="logo d-flex align-items-center me-auto">
 
@@ -140,7 +140,7 @@
   <div class="hidden-menu" style="display: none;">
     <div class="container-fluid">
       <div class="row d-flex   justify-content-lg-center">
-        <div class="col-lg-12 col-md-12 p-0">
+        <div class="col-lg-12 col-md-12 p-lg-0">
           <div class="list_text ">
 
             <ul class="list-unstyled mb-0">
