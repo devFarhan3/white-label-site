@@ -98,7 +98,7 @@
               </li>
             </ul>
           </li> -->
-          <li class="ms-lg-5">
+          <li class="desktop_margin" >
             <a href="#contact">
               <span class="me-2">
                 <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -127,7 +127,7 @@
     </span>
     </nav>
 
-    <a class="btn-getstarted flex-md-shrink-0" href="index.php#about">Get Started</a>
+    <a class="btn-getstarted flex-md-shrink-0" href="index.php#about"> Get Started <i class="bi bi-chevron-right fs-6 fw-bold"></i></a>
 
 
     <!-- hidden menu -->
@@ -140,7 +140,7 @@
   <div class="hidden-menu" style="display: none;">
     <div class="container-fluid">
       <div class="row d-flex   justify-content-lg-center">
-        <div class="col-lg-12 col-md-12 p-lg-0">
+        <div class="col-lg-12 col-md-12 p-0">
           <div class="list_text ">
 
             <ul class="list-unstyled mb-0">
@@ -159,7 +159,12 @@
 
               <li class="mt-auto btn_div">
                 <div class=" gs_phne_1 mb-4 ">
-                  <a href="#" class="btn-get-started"> <i class="bi bi-box-arrow-in-right fs-6 fw-semibold me-2"> </i> Sign in </a>
+                  <a href="#" class="btn-get-started"> <span class="me-2"> 
+                  <svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M10.9214 8.46224L7.65475 11.7289C7.29891 12.0847 6.69133 11.9219 6.56109 11.4359C6.50064 11.2103 6.56514 10.9696 6.73028 10.8044L8.8822 8.65333H1.31251C0.809577 8.65333 0.495239 8.10889 0.746708 7.67334C0.86342 7.47119 1.07908 7.34666 1.31251 7.34667H8.8822L6.73028 5.19557C6.37445 4.83974 6.53725 4.23215 7.02332 4.10192C7.24891 4.04147 7.4896 4.10597 7.65475 4.2711L10.9214 7.53777C11.1769 7.79297 11.1769 8.20704 10.9214 8.46224ZM15.6858 0.160004H10.4592C9.95624 0.160004 9.6419 0.704447 9.89337 1.14C10.0101 1.34213 10.2258 1.46666 10.4592 1.46667H15.0325V14.5333H10.4592C9.95624 14.5333 9.6419 15.0778 9.89337 15.5133C10.0101 15.7155 10.2258 15.84 10.4592 15.84H15.6858C16.0467 15.84 16.3392 15.5475 16.3392 15.1867V0.813335C16.3392 0.452522 16.0467 0.160022 15.6858 0.160004Z" fill="black"/>
+</svg>
+
+                  </span> Sign in </a>
                 </div>
 
                 <div class=" gs_phne">

@@ -6,7 +6,7 @@
   <div class="container">
     <div class="row gy-3">
       <div class="col-lg-12 col-12 ">
-        <div id="carouselExampleFade" class="carousel slide carousel slide" data-bs-ride="carousel">
+        <div id="carouselExampleFade" class="carousel slide " data-bs-ride="carousel">
           <div class="carousel-inner">
             <div class="carousel-item active">
               <div class="slider-bg position-relative">
@@ -68,6 +68,9 @@
           </button>
         </div>
 
+      
+
+
         <div class="d-flex flex-column flex-md-row position-relative " data-aos="fade-up" data-aos-delay="200">
           <div class="search-container">
             <span class="search-icon">
@@ -82,9 +85,9 @@
             </button>
           </div>
         </div>
+        <!-- ends -->
       </div>
     </div>
-  </div>
 </section>
 <!-- all brands Section -->
 
@@ -347,297 +350,231 @@
       </div>
     </div>
 
-    <div class="row gy-3">
-      <div class="col-6 col-sm-6 col-md-4 col-lg-2 col-xl-2 col-xxl-2">
-        <div class="col-box">
-          <div class="stores_card">
-            <a href="#">
-              <div class="d-flex flex-column ">
-                <div class="c_img">
-                  <img src="assets/img/b1.png" class="img-fluid">
-                </div>
-                <div class="card_bottom">
 
-                  <div class="d-flex justify-content-between  align-items-center">
-                    <div class="t1_text">
-                      <h6 class="mb-1">Tesco &pound;50</h6>
-                      <p class="mb-0">Up to 4% site credit</p>
-                    </div>
 
+    <div class="column-container">
+      <div class="column">
+        <div class="stores_card">
+          <a href="#">
+            <div class="d-flex flex-column ">
+              <div class="c_img">
+                <img src="assets/img/b1.png" class="img-fluid">
+              </div>
+              <div class="card_bottom">
+
+                <div class="d-flex justify-content-between  align-items-center">
+                  <div class="t1_text">
+                    <h6 class="mb-1">Tesco &pound;50</h6>
+                    <p class="mb-0">Up to 4% site credit</p>
                   </div>
 
                 </div>
+
               </div>
-            </a>
-          </div>
+            </div>
+          </a>
         </div>
       </div>
-      <div class="col-6 col-sm-6 col-md-4 col-lg-2 col-xl-2 col-xxl-2">
-        <div class="col-box">
-          <div class="stores_card">
-            <a href="#">
-              <div class="d-flex flex-column ">
-                <div class="c_img">
-                  <img src="assets/img/b2.png" class="img-fluid">
-                </div>
-                <div class="card_bottom">
+      <div class="column">
+        <div class="stores_card">
+          <a href="#">
+            <div class="d-flex flex-column ">
+              <div class="c_img">
+                <img src="assets/img/b2.png" class="img-fluid">
+              </div>
+              <div class="card_bottom">
 
-                  <div class="d-flex justify-content-between  align-items-center">
-                    <div class="t1_text">
-                      <h6 class="mb-1">Tesco &pound;50</h6>
-                      <p class="mb-0">Up to 4% site credit</p>
-                    </div>
-
+                <div class="d-flex justify-content-between  align-items-center">
+                  <div class="t1_text">
+                    <h6 class="mb-1">Tesco &pound;50</h6>
+                    <p class="mb-0">Up to 4% site credit</p>
                   </div>
 
                 </div>
+
               </div>
-            </a>
-          </div>
+            </div>
+          </a>
         </div>
       </div>
-      <div class="col-6 col-sm-6 col-md-4 col-lg-2 col-xl-2 col-xxl-2">
-        <div class="col-box">
-          <div class="stores_card">
-            <a href="#">
-              <div class="d-flex flex-column ">
-                <div class="c_img">
-                  <img src="assets/img/b3.png" class="img-fluid">
-                </div>
-                <div class="card_bottom">
+      <div class="column">
+        <div class="stores_card">
+          <a href="#">
+            <div class="d-flex flex-column ">
+              <div class="c_img">
+                <img src="assets/img/b3.png" class="img-fluid">
+              </div>
+              <div class="card_bottom">
 
-                  <div class="d-flex justify-content-between  align-items-center">
-                    <div class="t1_text">
-                      <h6 class="mb-1">Tesco &pound;50</h6>
-                      <p class="mb-0">Up to 4% site credit</p>
-                    </div>
-
+                <div class="d-flex justify-content-between  align-items-center">
+                  <div class="t1_text">
+                    <h6 class="mb-1">Tesco &pound;50</h6>
+                    <p class="mb-0">Up to 4% site credit</p>
                   </div>
 
                 </div>
+
               </div>
-            </a>
-          </div>
+            </div>
+          </a>
         </div>
       </div>
-      <div class="col-6 col-sm-6 col-md-4 col-lg-2 col-xl-2 col-xxl-2">
-        <div class="col-box">
-          <div class="stores_card">
-            <a href="#">
-              <div class="d-flex flex-column ">
-                <div class="c_img">
-                  <img src="assets/img/b1.png" class="img-fluid">
-                </div>
-                <div class="card_bottom">
+      <div class="column">
+        <div class="stores_card">
+          <a href="#">
+            <div class="d-flex flex-column ">
+              <div class="c_img">
+                <img src="assets/img/b1.png" class="img-fluid">
+              </div>
+              <div class="card_bottom">
 
-                  <div class="d-flex justify-content-between  align-items-center">
-                    <div class="t1_text">
-                      <h6 class="mb-1">Tesco &pound;50</h6>
-                      <p class="mb-0">Up to 4% site credit</p>
-                    </div>
-
+                <div class="d-flex justify-content-between  align-items-center">
+                  <div class="t1_text">
+                    <h6 class="mb-1">Tesco &pound;50</h6>
+                    <p class="mb-0">Up to 4% site credit</p>
                   </div>
 
                 </div>
+
               </div>
-            </a>
-          </div>
+            </div>
+          </a>
         </div>
       </div>
-      <div class="col-6 col-sm-6 col-md-4 col-lg-2 col-xl-2 col-xxl-2">
-        <div class="col-box">
-          <div class="stores_card">
-            <a href="#">
-              <div class="d-flex flex-column ">
-                <div class="c_img">
-                  <img src="assets/img/b2.png" class="img-fluid">
-                </div>
-                <div class="card_bottom">
+      <div class="column">
+        <div class="stores_card">
+          <a href="#">
+            <div class="d-flex flex-column ">
+              <div class="c_img">
+                <img src="assets/img/b2.png" class="img-fluid">
+              </div>
+              <div class="card_bottom">
 
-                  <div class="d-flex justify-content-between  align-items-center">
-                    <div class="t1_text">
-                      <h6 class="mb-1">Tesco &pound;50</h6>
-                      <p class="mb-0">Up to 4% site credit</p>
-                    </div>
-
+                <div class="d-flex justify-content-between  align-items-center">
+                  <div class="t1_text">
+                    <h6 class="mb-1">Tesco &pound;50</h6>
+                    <p class="mb-0">Up to 4% site credit</p>
                   </div>
 
                 </div>
+
               </div>
-            </a>
-          </div>
+            </div>
+          </a>
         </div>
       </div>
-      <div class="col-6 col-sm-6 col-md-4 col-lg-2 col-xl-2 col-xxl-2">
-        <div class="col-box">
-          <div class="stores_card">
-            <a href="#">
-              <div class="d-flex flex-column ">
-                <div class="c_img">
-                  <img src="assets/img/b3.png" class="img-fluid">
-                </div>
-                <div class="card_bottom">
 
-                  <div class="d-flex justify-content-between  align-items-center">
-                    <div class="t1_text">
-                      <h6 class="mb-1">Tesco &pound;50</h6>
-                      <p class="mb-0">Up to 4% site credit</p>
-                    </div>
+      <div class="column">
+        <div class="stores_card">
+          <a href="#">
+            <div class="d-flex flex-column ">
+              <div class="c_img">
+                <img src="assets/img/b1.png" class="img-fluid">
+              </div>
+              <div class="card_bottom">
 
+                <div class="d-flex justify-content-between  align-items-center">
+                  <div class="t1_text">
+                    <h6 class="mb-1">Tesco &pound;50</h6>
+                    <p class="mb-0">Up to 4% site credit</p>
                   </div>
 
                 </div>
+
               </div>
-            </a>
-          </div>
+            </div>
+          </a>
         </div>
       </div>
-      <div class="col-6 col-sm-6 col-md-4 col-lg-2 col-xl-2 col-xxl-2">
-        <div class="col-box">
-          <div class="stores_card">
-            <a href="#">
-              <div class="d-flex flex-column ">
-                <div class="c_img">
-                  <img src="assets/img/b1.png" class="img-fluid">
-                </div>
-                <div class="card_bottom">
+      <div class="column">
+        <div class="stores_card">
+          <a href="#">
+            <div class="d-flex flex-column ">
+              <div class="c_img">
+                <img src="assets/img/b2.png" class="img-fluid">
+              </div>
+              <div class="card_bottom">
 
-                  <div class="d-flex justify-content-between  align-items-center">
-                    <div class="t1_text">
-                      <h6 class="mb-1">Tesco &pound;50</h6>
-                      <p class="mb-0">Up to 4% site credit</p>
-                    </div>
-
+                <div class="d-flex justify-content-between  align-items-center">
+                  <div class="t1_text">
+                    <h6 class="mb-1">Tesco &pound;50</h6>
+                    <p class="mb-0">Up to 4% site credit</p>
                   </div>
 
                 </div>
+
               </div>
-            </a>
-          </div>
+            </div>
+          </a>
         </div>
       </div>
-      <div class="col-6 col-sm-6 col-md-4 col-lg-2 col-xl-2 col-xxl-2">
-        <div class="col-box">
-          <div class="stores_card">
-            <a href="#">
-              <div class="d-flex flex-column ">
-                <div class="c_img">
-                  <img src="assets/img/b2.png" class="img-fluid">
-                </div>
-                <div class="card_bottom">
+      <div class="column">
+        <div class="stores_card">
+          <a href="#">
+            <div class="d-flex flex-column ">
+              <div class="c_img">
+                <img src="assets/img/b3.png" class="img-fluid">
+              </div>
+              <div class="card_bottom">
 
-                  <div class="d-flex justify-content-between  align-items-center">
-                    <div class="t1_text">
-                      <h6 class="mb-1">Tesco &pound;50</h6>
-                      <p class="mb-0">Up to 4% site credit</p>
-                    </div>
-
+                <div class="d-flex justify-content-between  align-items-center">
+                  <div class="t1_text">
+                    <h6 class="mb-1">Tesco &pound;50</h6>
+                    <p class="mb-0">Up to 4% site credit</p>
                   </div>
 
                 </div>
+
               </div>
-            </a>
-          </div>
+            </div>
+          </a>
         </div>
       </div>
-      <div class="col-6 col-sm-6 col-md-4 col-lg-2 col-xl-2 col-xxl-2">
-        <div class="col-box">
-          <div class="stores_card">
-            <a href="#">
-              <div class="d-flex flex-column ">
-                <div class="c_img">
-                  <img src="assets/img/b3.png" class="img-fluid">
-                </div>
-                <div class="card_bottom">
+      <div class="column">
+        <div class="stores_card">
+          <a href="#">
+            <div class="d-flex flex-column ">
+              <div class="c_img">
+                <img src="assets/img/b1.png" class="img-fluid">
+              </div>
+              <div class="card_bottom">
 
-                  <div class="d-flex justify-content-between  align-items-center">
-                    <div class="t1_text">
-                      <h6 class="mb-1">Tesco &pound;50</h6>
-                      <p class="mb-0">Up to 4% site credit</p>
-                    </div>
-
+                <div class="d-flex justify-content-between  align-items-center">
+                  <div class="t1_text">
+                    <h6 class="mb-1">Tesco &pound;50</h6>
+                    <p class="mb-0">Up to 4% site credit</p>
                   </div>
 
                 </div>
+
               </div>
-            </a>
-          </div>
+            </div>
+          </a>
         </div>
       </div>
-      <div class="col-6 col-sm-6 col-md-4 col-lg-2 col-xl-2 col-xxl-2">
-        <div class="col-box">
-          <div class="stores_card">
-            <a href="#">
-              <div class="d-flex flex-column ">
-                <div class="c_img">
-                  <img src="assets/img/b1.png" class="img-fluid">
-                </div>
-                <div class="card_bottom">
+      <div class="column">
+        <div class="stores_card">
+          <a href="#">
+            <div class="d-flex flex-column ">
+              <div class="c_img">
+                <img src="assets/img/b2.png" class="img-fluid">
+              </div>
+              <div class="card_bottom">
 
-                  <div class="d-flex justify-content-between  align-items-center">
-                    <div class="t1_text">
-                      <h6 class="mb-1">Tesco &pound;50</h6>
-                      <p class="mb-0">Up to 4% site credit</p>
-                    </div>
-
+                <div class="d-flex justify-content-between  align-items-center">
+                  <div class="t1_text">
+                    <h6 class="mb-1">Tesco &pound;50</h6>
+                    <p class="mb-0">Up to 4% site credit</p>
                   </div>
 
                 </div>
+
               </div>
-            </a>
-          </div>
-        </div>
-      </div>
-      <div class="col-6 col-sm-6 col-md-4 col-lg-2 col-xl-2 col-xxl-2">
-        <div class="col-box">
-          <div class="stores_card">
-            <a href="#">
-              <div class="d-flex flex-column ">
-                <div class="c_img">
-                  <img src="assets/img/b2.png" class="img-fluid">
-                </div>
-                <div class="card_bottom">
-
-                  <div class="d-flex justify-content-between  align-items-center">
-                    <div class="t1_text">
-                      <h6 class="mb-1">Tesco &pound;50</h6>
-                      <p class="mb-0">Up to 4% site credit</p>
-                    </div>
-
-                  </div>
-
-                </div>
-              </div>
-            </a>
-          </div>
-        </div>
-      </div>
-      <div class="col-6 col-sm-6 col-md-4 col-lg-2 col-xl-2 col-xxl-2">
-        <div class="col-box">
-          <div class="stores_card">
-            <a href="#">
-              <div class="d-flex flex-column ">
-                <div class="c_img">
-                  <img src="assets/img/b3.png" class="img-fluid">
-                </div>
-                <div class="card_bottom">
-
-                  <div class="d-flex justify-content-between  align-items-center">
-                    <div class="t1_text">
-                      <h6 class="mb-1">Tesco &pound;50</h6>
-                      <p class="mb-0">Up to 4% site credit</p>
-                    </div>
-
-                  </div>
-
-                </div>
-              </div>
-            </a>
-          </div>
+            </div>
+          </a>
         </div>
       </div>
     </div>
-
     <div class="view-more pt_40">
       <a href="#">See All Brands <span>
           <svg width="10" height="9" viewBox="0 0 10 9" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -662,7 +599,7 @@
         <div class="d-flex flex-column ">
           <div class="ins_start">
             <h3>
-              Instantly Start Earning SITE CREDIT on Every Transaction!
+              Instantly Start Earning SITE CREDIT on Every <span class="text-uppercase">Transaction</span>
             </h3>
             <div class="col-sm-8 col-10 ">
               <a href="#" class="btn-get-started">Start Shopping Now <i class="bi bi-chevron-right fs-6 fw-semibold"></i></a>

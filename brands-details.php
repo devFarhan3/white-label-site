@@ -206,7 +206,7 @@
   <section id="how_works" class="how_works p-0">
     <div class="container">
       <div class="row gy-3 ">
-        <div class="col-xl-6 " data-aos="zoom-out" data-aos-delay="100">
+        <div class="col-xl-7 " data-aos="zoom-out" data-aos-delay="100">
           <div class="d-flex flex-column ">
             <div class="ins_start">
               <h6>Description</h6>
@@ -231,7 +231,7 @@
           </div>
         </div>
 
-        <div class="col-xl-6" data-aos="zoom-out" data-aos-delay="200">
+        <div class="col-xl-5" data-aos="zoom-out" data-aos-delay="200">
           <div class="hows_works">
           <h6>How It Works</h6>
             <div class="custom-bullets">
@@ -505,9 +505,9 @@
         <div class="col-xl-6 " data-aos="zoom-out" data-aos-delay="100">
           <div class="d-flex flex-column ">
             <div class="ins_start">
-              <h3>
-                Instantly Start Earning SITE CREDIT on Every Transaction!
-              </h3>
+            <h3>
+              Instantly Start Earning SITE CREDIT on Every <span class="text-uppercase">Transaction</span>
+            </h3>
               <div class="col-sm-8 col-10 ">
                 <a href="#" class="btn-get-started">Start Shopping Now <i class="bi bi-chevron-right fs-6 fw-semibold"></i></a>
               </div>

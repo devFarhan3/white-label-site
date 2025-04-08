@@ -5,7 +5,7 @@
 <section id="hero" class="hero section">
   <div class="container-fluid">
     <div class="row gy-3">
-      <div class="col-lg-7 order-1 order-lg-0 d-flex flex-column justify-content-center padding_left">
+      <div class="col-lg-7 col-md-6 col-sm-12 col-12 order-1 order-lg-0 d-flex flex-column justify-content-center padding_left">
         <div class="small-head" data-aos="fade-up" class="mb-0">
           <h6 class="mb-0">
             <span>
@@ -36,7 +36,9 @@
 
             </span>
             <input type="text" placeholder="Search for a brand (e.g. Tesco, Argos, Asda, Currys, etc)"
-              class="search-input">
+              class="search-input d-lg-block d-sm-none d-none">
+            <input type="text" placeholder="Search for a brand"
+              class="search-input d-lg-none d-sm-block d-block">
             <button class="search-button">Search
               <i class="bi bi-arrow-right ms-3"></i>
             </button>
@@ -45,7 +47,7 @@
 
 
         <div class="list_items" data-aos="zoom-out">
-          <ul class="custom-bullets d-lg-flex ps-3 pb_50">
+          <ul class="custom-bullets d-lg-flex ps-1 pb_50">
             <li class="me-lg-5">Get instant site credit added to your Omaze account</li>
             <!-- <li><span>|</span></li> -->
             <li><strong>
@@ -55,7 +57,7 @@
           </ul>
         </div>
       </div>
-      <div class="col-lg-5 order-1 order-lg-2 pe-0 hero-img" data-aos="zoom-out">
+      <div class="col-lg-5 col-md-7 col-sm-12 col-12 order-1 order-lg-2 pe-0 hero-img" data-aos="zoom-out">
         <!-- <img src="assets/img/banner-img.svg" class="img-fluid animated" alt=""> -->
 
         <picture>
@@ -86,10 +88,10 @@
     <ul class="timeline">
       <li class="pb_130">
         <div class="timeline-badge"></div>
-        <div class="row gy-4">
+        <div class="row gy-4 d-flex justify-content-center">
           <div class="col-lg-6 order-lg-0 order-1">
             <div class="timeline-panel">
-              <span class="badge rounded-pill ">Info</span>
+              <span class="badge rounded-pill ">STEP 1</span>
 
               <div class="get_started">
                 <h2>Buy a digital gift card</h2>
@@ -117,13 +119,13 @@
 
       <li class="pb_130">
         <div class="timeline-badge"></div>
-        <div class="row gy-4 d-flex  align-items-center">
+        <div class="row gy-4 d-flex  justify-content-center">
           <div class="col-lg-5 ">
             <div class="pannel-imgs">
               <div class="bg-im">
                 <picture>
-                  <source srcset="assets/img/t1.png" type="image/svg+xml">
-                  <img src="assets/img/t1.png" class="img-fluid img_sec" alt="t1">
+                  <source srcset="assets/img/t2.png" type="image/svg+xml">
+                  <img src="assets/img/t2.png" class="img-fluid img_sec" alt="t1">
                 </picture>
               </div>
             </div>
@@ -131,11 +133,11 @@
 
           <div class="col-lg-6 step_2">
             <div class="timeline-panel">
-              <span class="badge rounded-pill ">Info</span>
+              <span class="badge rounded-pill ">STEP 2</span>
 
               <div class="get_started">
-                <h2>Buy a digital gift card</h2>
-                <p>Search for a brand you shop with and buy yourself a digital gift card.</p>
+                <h2>Use it in-store or online</h2>
+                <p>Spend your gift card immediately in-store or online.</p>
               </div>
 
               <div class="brn_gs ">
@@ -151,14 +153,14 @@
 
       <li class="pb_130_">
         <div class="timeline-badge"></div>
-        <div class="row gy-4">
+        <div class="row gy-4 d-flex justify-content-center">
           <div class="col-lg-6  order-lg-0 order-1">
             <div class="timeline-panel">
-              <span class="badge rounded-pill ">Info</span>
+              <span class="badge rounded-pill ">STEP 3</span>
 
               <div class="get_started">
-                <h2>Buy a digital gift card</h2>
-                <p>Search for a brand you shop with and buy yourself a digital gift card.</p>
+                <h2>Get free site credit</h2>
+                <p>We'll add site credit to your account straight away!</p>
               </div>
 
               <div class="brn_gs ">
@@ -168,11 +170,11 @@
             </div>
           </div>
           <div class="col-lg-5">
-            <div class="pannel-imgs">
+            <div class="pannel-imgs ">
               <div class="bg-im">
                 <picture>
-                  <source srcset="assets/img/t1.png" type="image/svg+xml">
-                  <img src="assets/img/t1.png" class="img-fluid img_sec" alt="t1">
+                  <source srcset="assets/img/t3.png" type="image/svg+xml">
+                  <img src="assets/img/t3.png" class="img-fluid img_sec pb-0" alt="t1">
                 </picture>
               </div>
             </div>
@@ -188,7 +190,7 @@
       <div class="slider-sec">
         <div class="row gy-3">
           <div class="col-lg-9 pe-lg-0 ">
-            <div class="white-sec">
+            <div class="white-sec h-100">
               <div class="sec_content">
                 <!-- <h2>Discover How Much You Can Get! </h2> -->
                 <div class="d-flex flex-column slider-content-sec">
@@ -238,8 +240,8 @@
             </div>
           </div>
           <div class="col-lg-3 ps-lg-0 ">
-            <div class="yelow-sec">
-              <div class="d-flex flex-column  mb-3">
+            <div class="yelow-sec h-100">
+              <div class="d-flex flex-column  ">
                 <div class="calculator">
                   <span>
                     <svg width="82" height="91" viewBox="0 0 82 91" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -416,13 +418,13 @@
       <div class="col-lg-10 position-relative" data-aos="fade-up" data-aos-delay="100">
         <div class="sc_sec ">
           <p>All of your favourite brands offering site credit</p>
-          <div class="swiper init-swiper sc_slider_sec" data-aos="fade-up" data-aos-delay="100">
+          <div class="swiper init-swiper " data-aos="fade-up" data-aos-delay="100">
             <script type="application/json" class="swiper-config">
               {
                 "loop": true,
-                "speed": 600,
+                "speed": 3000,
                 "autoplay": {
-                  "delay": 5000
+                  "delay": 0
                 },
 
                 "slidesPerView": "auto",
@@ -431,6 +433,8 @@
                   "type": "bullets",
                   "clickable": true
                 },
+                "direction": "horizontal",
+                "ltr": "true",
                 "breakpoints": {
                   "320": {
                     "slidesPerView": 2,
@@ -513,26 +517,207 @@
                 </div>
               </div>
 
+
+
+              <div class="swiper-slide">
+                <!-- <img src="assets/img/clients/client-1.png" class="img-fluid" alt=""> -->
+                <div class="sc_slider_img">
+                  <img src="assets/img/addidas.png" class="img-fluid" alt="addidas">
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <!-- <img src="assets/img/clients/client-1.png" class="img-fluid" alt=""> -->
+                <div class="sc_slider_img">
+                  <img src="assets/img/nike.png" class="img-fluid" alt="addidas">
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <!-- <img src="assets/img/clients/client-1.png" class="img-fluid" alt=""> -->
+                <div class="sc_slider_img">
+                  <img src="assets/img/ns.png" class="img-fluid" alt="addidas">
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <!-- <img src="assets/img/clients/client-1.png" class="img-fluid" alt=""> -->
+                <div class="sc_slider_img">
+                  <img src="assets/img/curys.png" class="img-fluid" alt="addidas">
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="sc_slider_img">
+                  <img src="assets/img/tesco.png" class="img-fluid" alt="addidas">
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="sc_slider_img">
+                  <img src="assets/img/addidas.png" class="img-fluid" alt="addidas">
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <!-- <img src="assets/img/clients/client-1.png" class="img-fluid" alt=""> -->
+                <div class="sc_slider_img">
+                  <img src="assets/img/nike.png" class="img-fluid" alt="addidas">
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <!-- <img src="assets/img/clients/client-1.png" class="img-fluid" alt=""> -->
+                <div class="sc_slider_img">
+                  <img src="assets/img/ns.png" class="img-fluid" alt="addidas">
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <!-- <img src="assets/img/clients/client-1.png" class="img-fluid" alt=""> -->
+                <div class="sc_slider_img">
+                  <img src="assets/img/curys.png" class="img-fluid" alt="addidas">
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="sc_slider_img">
+                  <img src="assets/img/tesco.png" class="img-fluid" alt="addidas">
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <!-- <img src="assets/img/clients/client-1.png" class="img-fluid" alt=""> -->
+                <div class="sc_slider_img">
+                  <img src="assets/img/addidas.png" class="img-fluid" alt="addidas">
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <!-- <img src="assets/img/clients/client-1.png" class="img-fluid" alt=""> -->
+                <div class="sc_slider_img">
+                  <img src="assets/img/nike.png" class="img-fluid" alt="addidas">
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <!-- <img src="assets/img/clients/client-1.png" class="img-fluid" alt=""> -->
+                <div class="sc_slider_img">
+                  <img src="assets/img/ns.png" class="img-fluid" alt="addidas">
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <!-- <img src="assets/img/clients/client-1.png" class="img-fluid" alt=""> -->
+                <div class="sc_slider_img">
+                  <img src="assets/img/curys.png" class="img-fluid" alt="addidas">
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="sc_slider_img">
+                  <img src="assets/img/tesco.png" class="img-fluid" alt="addidas">
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="sc_slider_img">
+                  <img src="assets/img/addidas.png" class="img-fluid" alt="addidas">
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <!-- <img src="assets/img/clients/client-1.png" class="img-fluid" alt=""> -->
+                <div class="sc_slider_img">
+                  <img src="assets/img/nike.png" class="img-fluid" alt="addidas">
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <!-- <img src="assets/img/clients/client-1.png" class="img-fluid" alt=""> -->
+                <div class="sc_slider_img">
+                  <img src="assets/img/ns.png" class="img-fluid" alt="addidas">
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <!-- <img src="assets/img/clients/client-1.png" class="img-fluid" alt=""> -->
+                <div class="sc_slider_img">
+                  <img src="assets/img/curys.png" class="img-fluid" alt="addidas">
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="sc_slider_img">
+                  <img src="assets/img/tesco.png" class="img-fluid" alt="addidas">
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <!-- <img src="assets/img/clients/client-1.png" class="img-fluid" alt=""> -->
+                <div class="sc_slider_img">
+                  <img src="assets/img/addidas.png" class="img-fluid" alt="addidas">
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <!-- <img src="assets/img/clients/client-1.png" class="img-fluid" alt=""> -->
+                <div class="sc_slider_img">
+                  <img src="assets/img/nike.png" class="img-fluid" alt="addidas">
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <!-- <img src="assets/img/clients/client-1.png" class="img-fluid" alt=""> -->
+                <div class="sc_slider_img">
+                  <img src="assets/img/ns.png" class="img-fluid" alt="addidas">
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <!-- <img src="assets/img/clients/client-1.png" class="img-fluid" alt=""> -->
+                <div class="sc_slider_img">
+                  <img src="assets/img/curys.png" class="img-fluid" alt="addidas">
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="sc_slider_img">
+                  <img src="assets/img/tesco.png" class="img-fluid" alt="addidas">
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="sc_slider_img">
+                  <img src="assets/img/addidas.png" class="img-fluid" alt="addidas">
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <!-- <img src="assets/img/clients/client-1.png" class="img-fluid" alt=""> -->
+                <div class="sc_slider_img">
+                  <img src="assets/img/nike.png" class="img-fluid" alt="addidas">
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <!-- <img src="assets/img/clients/client-1.png" class="img-fluid" alt=""> -->
+                <div class="sc_slider_img">
+                  <img src="assets/img/ns.png" class="img-fluid" alt="addidas">
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <!-- <img src="assets/img/clients/client-1.png" class="img-fluid" alt=""> -->
+                <div class="sc_slider_img">
+                  <img src="assets/img/curys.png" class="img-fluid" alt="addidas">
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="sc_slider_img">
+                  <img src="assets/img/tesco.png" class="img-fluid" alt="addidas">
+                </div>
+              </div>
 
             </div>
             <!-- <div class="swiper-pagination"></div> -->
           </div>
 
-          <div class="swiper init-swiper sc_slider_sec" data-aos="fade-up" data-aos-delay="200">
+          <div class="swiper init-swiper sc_slider_sec" data-aos="fade-up" data-aos-delay="200" dir="rtl">
             <script type="application/json" class="swiper-config">
               {
                 "loop": true,
-                "speed": 600,
+                "speed": 3000,
                 "autoplay": {
-                  "delay": 5000
+                  "delay": 0
                 },
-
                 "slidesPerView": "auto",
                 "pagination": {
                   "el": ".swiper-pagination",
                   "type": "bullets",
                   "clickable": true
                 },
+
+                "direction": "horizontal",
+                "rtl": "true",
                 "breakpoints": {
                   "320": {
                     "slidesPerView": 2,
@@ -554,6 +739,127 @@
               }
             </script>
             <div class="swiper-wrapper align-items-center ss_slider">
+
+              <div class="swiper-slide">
+                <!-- <img src="assets/img/clients/client-1.png" class="img-fluid" alt=""> -->
+                <div class="sc_slider_img">
+                  <img src="assets/img/addidas.png" class="img-fluid" alt="addidas">
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <!-- <img src="assets/img/clients/client-1.png" class="img-fluid" alt=""> -->
+                <div class="sc_slider_img">
+                  <img src="assets/img/nike.png" class="img-fluid" alt="addidas">
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <!-- <img src="assets/img/clients/client-1.png" class="img-fluid" alt=""> -->
+                <div class="sc_slider_img">
+                  <img src="assets/img/ns.png" class="img-fluid" alt="addidas">
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <!-- <img src="assets/img/clients/client-1.png" class="img-fluid" alt=""> -->
+                <div class="sc_slider_img">
+                  <img src="assets/img/curys.png" class="img-fluid" alt="addidas">
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="sc_slider_img">
+                  <img src="assets/img/tesco.png" class="img-fluid" alt="addidas">
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="sc_slider_img">
+                  <img src="assets/img/addidas.png" class="img-fluid" alt="addidas">
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <!-- <img src="assets/img/clients/client-1.png" class="img-fluid" alt=""> -->
+                <div class="sc_slider_img">
+                  <img src="assets/img/nike.png" class="img-fluid" alt="addidas">
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <!-- <img src="assets/img/clients/client-1.png" class="img-fluid" alt=""> -->
+                <div class="sc_slider_img">
+                  <img src="assets/img/ns.png" class="img-fluid" alt="addidas">
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <!-- <img src="assets/img/clients/client-1.png" class="img-fluid" alt=""> -->
+                <div class="sc_slider_img">
+                  <img src="assets/img/curys.png" class="img-fluid" alt="addidas">
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="sc_slider_img">
+                  <img src="assets/img/tesco.png" class="img-fluid" alt="addidas">
+                </div>
+              </div>
+
+
+              <div class="swiper-slide">
+                <!-- <img src="assets/img/clients/client-1.png" class="img-fluid" alt=""> -->
+                <div class="sc_slider_img">
+                  <img src="assets/img/addidas.png" class="img-fluid" alt="addidas">
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <!-- <img src="assets/img/clients/client-1.png" class="img-fluid" alt=""> -->
+                <div class="sc_slider_img">
+                  <img src="assets/img/nike.png" class="img-fluid" alt="addidas">
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <!-- <img src="assets/img/clients/client-1.png" class="img-fluid" alt=""> -->
+                <div class="sc_slider_img">
+                  <img src="assets/img/ns.png" class="img-fluid" alt="addidas">
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <!-- <img src="assets/img/clients/client-1.png" class="img-fluid" alt=""> -->
+                <div class="sc_slider_img">
+                  <img src="assets/img/curys.png" class="img-fluid" alt="addidas">
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="sc_slider_img">
+                  <img src="assets/img/tesco.png" class="img-fluid" alt="addidas">
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="sc_slider_img">
+                  <img src="assets/img/addidas.png" class="img-fluid" alt="addidas">
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <!-- <img src="assets/img/clients/client-1.png" class="img-fluid" alt=""> -->
+                <div class="sc_slider_img">
+                  <img src="assets/img/nike.png" class="img-fluid" alt="addidas">
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <!-- <img src="assets/img/clients/client-1.png" class="img-fluid" alt=""> -->
+                <div class="sc_slider_img">
+                  <img src="assets/img/ns.png" class="img-fluid" alt="addidas">
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <!-- <img src="assets/img/clients/client-1.png" class="img-fluid" alt=""> -->
+                <div class="sc_slider_img">
+                  <img src="assets/img/curys.png" class="img-fluid" alt="addidas">
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="sc_slider_img">
+                  <img src="assets/img/tesco.png" class="img-fluid" alt="addidas">
+                </div>
+              </div>
 
               <div class="swiper-slide">
                 <!-- <img src="assets/img/clients/client-1.png" class="img-fluid" alt=""> -->
@@ -653,7 +959,7 @@
 
   <div class="container" data-aos="fade-up" data-aos-delay="100">
 
-    <div class="row gy-4">
+    <div class="row gy-4 d-flex justify-content-center">
       <div class="slider-wrapper">
         <button id="prev-slide" class="slide-button material-symbols-rounded">
           chevron_left
@@ -927,7 +1233,7 @@
         <div class="d-flex flex-column ">
           <div class="ins_start">
             <h3>
-              Instantly Start Earning SITE CREDIT on Every Transaction!
+              Instantly Start Earning SITE CREDIT on Every <span class="text-uppercase">Transaction</span>
             </h3>
             <div class="col-sm-8 col-10 ">
               <a href="#" class="btn-get-started">Start Shopping Now <i class="bi bi-chevron-right fs-6 fw-semibold"></i></a>

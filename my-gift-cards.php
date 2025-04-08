@@ -35,7 +35,7 @@
     <div class="container" data-aos="fade-up" data-aos-delay="100">
       <div class="stores_text d-flex justify-content-between padding_28">
         <div>
-          <h3 class="mb-0">My Gift Cards</h3>
+          <h3 class="">My Gift Cards</h3>
           <p>See below for all gift cards you’ve purchased.</p>
         </div>
       </div>
@@ -313,9 +313,9 @@
         <div class="col-xl-6 " data-aos="zoom-out" data-aos-delay="100">
           <div class="d-flex flex-column ">
             <div class="ins_start">
-              <h3>
-                Instantly Start Earning SITE CREDIT on Every Transaction!
-              </h3>
+            <h3>
+              Instantly Start Earning SITE CREDIT on Every <span class="text-uppercase">Transaction</span>
+            </h3>
               <div class="col-sm-8 col-10 ">
                 <a href="#" class="btn-get-started">Start Shopping Now <i class="bi bi-chevron-right fs-6 fw-semibold"></i></a>
               </div>

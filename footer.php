@@ -305,18 +305,18 @@
 
 <script>
   let swiper1 = new Swiper(".mySwiper", {
-  slidesPerView: "auto",
-  spaceBetween: 18,
-  pagination: {
-    el: ".swiper-pagination",
-    type: "progressbar"
-  },
-  navigation: {
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev"
-  },
+    slidesPerView: "auto",
+    spaceBetween: 18,
+    pagination: {
+      el: ".swiper-pagination",
+      type: "progressbar"
+    },
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev"
+    },
 
-  breakpoints: {
+    breakpoints: {
       // Small devices (phones)
       320: {
         slidesPerView: 1.5,
@@ -338,8 +338,7 @@
         spaceBetween: 30,
       }
     }
-});
-
+  });
 </script>
 <!-- ends -->
 
@@ -363,8 +362,9 @@
   });
 
   // show and hide 
-  
 </script>
+
+
 
 </body>
 
