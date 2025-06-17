@@ -1,4 +1,4 @@
-<footer id="footer" class="footer">
+<footer id="footer" class="footer d-none">
 
   <div class="container footer-top d-none">
     <div class="row gy-4">
@@ -102,9 +102,69 @@
 
 </footer>
 
+
+<!-- new footer -->
+ <div class="footer">
+        <div class="container">
+            <div class="row">
+                <!-- Page Links Column -->
+                <div class="col-md-3 col-sm-6 mb-4 mb-md-0">
+                    <h5>Page Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Results</a></li>
+                    </ul>
+                </div>
+
+                <!-- Support Column -->
+                <div class="col-md-4 col-sm-6 mb-4 mb-md-0">
+                    <h5>Support</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms & Conditions</a></li>
+                    </ul>
+                </div>
+
+                <!-- Join the List Column -->
+                <div class="col-md-4 mb-4 mb-md-0 offset-lg-1">
+                    <h5>Join the list</h5>
+                    <p class="text-muted">The latest discounts, sales, and new releases, sent to your inbox!</p>
+                    <div class="input-group mb-3">
+                        <input type="email" class="form-control" placeholder="Enter your email" aria-label="Enter your email">
+                      
+                        <button class="btn btn-subscribe" type="button"><i class="fas fa-plus"></i> Subscribe</button>
+                    </div>
+                </div>
+            </div>
+
+            <hr>
+
+            <div class="row align-items-center">
+                <!-- Powered By Section -->
+                <div class="col-md-6 text-md-start text-center mb-3 mb-md-0">
+                    <p class="copyright mb-0 me-md-4">Omaze More! is powered by Spendstream. © 2025 Spendstream Ltd.</p>
+                </div>
+
+                <!-- Copyright and Social Icons -->
+                <div class="col-md-6 d-flex flex-column flex-md-row justify-content-center justify-content-md-end align-items-center">
+                  
+                    <div class="social-icons mt-3 mt-md-0">
+                        <a href="#"><i class="bi bi-instagram"></i></a>
+                        <a href="#"><i class="bi bi-facebook"></i></a>
+                        <a href="#"><i class="bi bi-twitter"></i></a>
+                        <a href="#"><i class="bi bi-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- new footer -->
+
 <!-- Scroll Top -->
-<a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
-    class="bi bi-arrow-up-short"></i></a>
+<a href="#" id="scroll-top " class="scroll-top d-flex align-items-center justify-content-center d-none"><i
+    class="bi bi-arrow-up-short"></i>
+  </a>
 
 <!-- Vendor JS Files -->
 
@@ -320,22 +380,22 @@
       // Small devices (phones)
       320: {
         slidesPerView: 1.5,
-        spaceBetween: 30,
+        spaceBetween: 20,
       },
       // Medium devices (tablets)
       768: {
         slidesPerView: 3,
-        spaceBetween: 30,
+        spaceBetween: 20,
       },
       // Large devices (desktops)
       1024: {
-        slidesPerView: 4,
-        spaceBetween: 30,
+        slidesPerView: 5,
+        spaceBetween: 20,
       },
       // Extra large screens
       1440: {
-        slidesPerView: 4,
-        spaceBetween: 30,
+        slidesPerView: 5,
+        spaceBetween: 20,
       }
     }
   });

@@ -188,8 +188,8 @@
 
     <div class="rangeslider ">
       <div class="slider-sec">
-        <div class="row gy-3">
-          <div class="col-lg-9 pe-lg-0 ">
+        <div class="row gy-0">
+          <div class="col-lg-8 pe-lg-0 ">
             <div class="white-sec h-100">
               <div class="sec_content">
                 <!-- <h2>Discover How Much You Can Get! </h2> -->
@@ -239,7 +239,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-3 ps-lg-0 ">
+          <div class="col-lg-4 ps-lg-0 ">
             <div class="yelow-sec h-100">
               <div class="d-flex flex-column  ">
                 <div class="calculator">
@@ -457,14 +457,14 @@
             </script>
             <div class="swiper-wrapper align-items-center ss_slider">
 
-              <div class="swiper-slide">
+              <div class="swiper-slide mb-3">
                 <!-- <img src="assets/img/clients/client-1.png" class="img-fluid" alt=""> -->
                 <div class="sc_slider_img">
                   <img src="assets/img/addidas.png" class="img-fluid" alt="addidas">
                 </div>
               </div>
 
-              <div class="swiper-slide">
+              <div class="swiper-slide overflow-hidden">
                 <!-- <img src="assets/img/clients/client-1.png" class="img-fluid" alt=""> -->
                 <div class="sc_slider_img">
                   <img src="assets/img/nike.png" class="img-fluid" alt="addidas">

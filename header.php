@@ -35,88 +35,138 @@
 </head>
 
 <body class="index-page">
+  <style>
+    #header .search-container {
+      max-width: 510px;
+    }
 
-  <header id="header" class="header d-flex align-items-center sticky-top">
-    <div class="container-fluid container-xl container-xxl position-relative d-flex align-items-center ">
+    #header .search-button {
+      font-size: 14px;
+      line-height: 18px;
 
-      <a href="index.php" class="logo d-flex align-items-center me-auto">
+    }
+
+    #header .search-input {
+      font-size: 13px;
+    }
+
+    #header .search-icon {
+      width: 40px;
+    }
+
+    .header .btn-getstarted {
+      margin: 0 0 0 10px;
+    }
+  </style>
+
+  <div id="new_header">
+    <header id="header  " class="header p-0 d-flex align-items-center sticky-top flex-column">
+      <div class="align-items-center justify-content-center w-100 display_top_bar d-flex" style="background-color: #FFA400">
+
+        <div class="container">
+          <div class="marquee-container  py-1 px-2">
+            <marquee behavior="scroll" direction="left" scrollamount="4" onmouseover="this.stop();" onmouseout="this.start();">
+              This is a demo site and not for public use. For all enquiries, please contact support@spendstream.co.uk. / Join The Clubhouse now for discount codes, whisky chat and freebies!
+              This is a demo site and not for public use. For all enquiries, please contact support@spendstream.co.uk. / Join The Clubhouse now for discount codes, whisky chat and freebies!
+            </marquee>
+          </div>
+        </div>
+
+
+      </div>
+      <div class="container-fluid container-xl container-xxl position-relative d-flex align-items-center justify-content-between pt-3 pb-3">
+
+        <a href="index.php" class="logo d-flex align-items-center me-auto">
+
+          <img src="assets/img/omaze-logo.svg" alt="omaze" class="img-fluid">
+          <!-- <h1 class="sitename">FlexStart</h1> -->
+        </a>
+
+
+
+
+        <nav id="navmenu" class="navmenu">
+          <ul>
+            <!-- <li><a href="#" >Categories</a></li> -->
+            <!-- <li class="dropdown"><a href="#"><span>Categories</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+              <ul>
+                <li><a href="#">Featured</a></li>
+
+                <li><a href="#">Instant Wins</a></li>
+                <li><a href="#">
+                    Classic Comps</a></li>
+
+              </ul>
+            </li> -->
+
+            <li><a href="#">How It Works</a></li>
+            <li><a href="#">Brands</a></li>
+            <li><a href="#">Help</a></li>
+
+          </ul>
+
+          <span class="d-lg-none d-md-none d-sm-block d-block mobile_toggle">
+            <input type="checkbox" id="tmenu">
+            <label for="tmenu" class="micon">
+              <span class="mtext" "=""></span>
+                  <div class=" tmenu">
+      </div>
+      </label>
+      </span>
+      </nav>
+
+      <!-- <a class="btn-getstarted flex-md-shrink-0" href="index.php#about"> My Gift Cards<i class="bi bi-chevron-right fs-6 fw-bold"></i></a> -->
+
+      <div class="left_btns d-flex align-items-center justify-content-center d-lg-block d-sm-none d-none">
+        <!-- <a href="#" class="login_btn d-lg-block d-sm-none d-none me-2">My Gift Cards </a> -->
+        <a href="#" class="signup_btn  d-lg-block d-sm-none d-none">My Gift Cards </a>
+      </div>
+
+  </div>
+  </header>
+
+  </div>
+
+
+  <!-- old headerr -->
+  <header id="header" class="header d-flex align-items-center sticky-top d-none">
+    <div class="container-fluid container-xl container-xxl position-relative d-flex align-items-center justify-content-between ">
+
+
+
+      <a href="index.php" class="logo d-flex align-items-center ">
 
         <img src="assets/img/omaze-logo.svg" alt="omaze" class="img-fluid">
         <!-- <h1 class="sitename">FlexStart</h1> -->
       </a>
 
+
+      <div class="search-container mb-0  d-lg-flex d-lg-block d-sm-none d-none">
+        <span class="search-icon">
+          <svg width="15" height="15" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M17.5 17.5L14.5834 14.5833M16.6667 9.58333C16.6667 13.4954 13.4954 16.6667 9.58333 16.6667C5.67132 16.6667 2.5 13.4954 2.5 9.58333C2.5 5.67132 5.67132 2.5 9.58333 2.5C13.4954 2.5 16.6667 5.67132 16.6667 9.58333Z"
+              stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+          </svg>
+
+        </span>
+        <input type="text" placeholder="Search for a brand (e.g. Tesco, Argos, Asda, Currys, etc)"
+          class="search-input d-lg-block d-sm-none d-none">
+        <input type="text" placeholder="Search for a brand"
+          class="search-input d-lg-none d-sm-block d-block">
+        <button class="search-button">Search
+          <i class="bi bi-arrow-right ms-3"></i>
+        </button>
+      </div>
+
       <nav id="navmenu" class="navmenu">
         <ul>
-          <li><a href="index.php" class="active">Home<br></a></li>
+          <li><a href="index.php" class="active">How it works</a></li>
           <li><a href="all-brands.php">Brands</a></li>
-          <li><a href="#">Contact</a></li>
-          <!-- <li class="me-lg-5"></li> -->
+          <li><a href="#">Help</a></li>
 
-          <!-- <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-            <ul>
-              <li><a href="#">Dropdown 1</a></li>
-              <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-                <ul>
-                  <li><a href="#">Deep Dropdown 1</a></li>
-                  <li><a href="#">Deep Dropdown 2</a></li>
-                  <li><a href="#">Deep Dropdown 3</a></li>
-                  <li><a href="#">Deep Dropdown 4</a></li>
-                  <li><a href="#">Deep Dropdown 5</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Dropdown 2</a></li>
-              <li><a href="#">Dropdown 3</a></li>
-              <li><a href="#">Dropdown 4</a></li>
-            </ul>
-          </li> -->
-          <!-- <li class="listing-dropdown"><a href="#"><span>Listing Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-            <ul>
-              <li>
-                <a href="#">Column 1 link 1</a>
-                <a href="#">Column 1 link 2</a>
-                <a href="#">Column 1 link 3</a>
-              </li>
-              <li>
-                <a href="#">Column 2 link 1</a>
-                <a href="#">Column 2 link 2</a>
-                <a href="#">Column 3 link 3</a>
-              </li>
-              <li>
-                <a href="#">Column 3 link 1</a>
-                <a href="#">Column 3 link 2</a>
-                <a href="#">Column 3 link 3</a>
-              </li>
-              <li>
-                <a href="#">Column 4 link 1</a>
-                <a href="#">Column 4 link 2</a>
-                <a href="#">Column 4 link 3</a>
-              </li>
-              <li>
-                <a href="#">Column 5 link 1</a>
-                <a href="#">Column 5 link 2</a>
-                <a href="#">Column 5 link 3</a>
-              </li>
-            </ul>
-          </li> -->
-          <li class="desktop_margin" >
-            <a href="#contact">
-              <span class="me-2">
-                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path
-                    d="M10.4224 8.46223L7.15572 11.7289C6.79989 12.0847 6.1923 11.9219 6.06207 11.4359C6.00162 11.2103 6.06612 10.9696 6.23125 10.8044L8.38317 8.65333H0.813485C0.310553 8.65333 -0.00378421 8.10889 0.247685 7.67333C0.364397 7.47118 0.58006 7.34666 0.813485 7.34667H8.38317L6.23125 5.19557C5.87543 4.83974 6.03823 4.23215 6.5243 4.10191C6.74988 4.04146 6.99058 4.10596 7.15572 4.2711L10.4224 7.53777C10.6779 7.79297 10.6779 8.20703 10.4224 8.46223ZM15.1868 0.16H9.96015C9.45722 0.16 9.14288 0.704444 9.39435 1.14C9.51105 1.34213 9.72675 1.46666 9.96015 1.46667H14.5335V14.5333H9.96015C9.45722 14.5333 9.14288 15.0778 9.39435 15.5133C9.51105 15.7155 9.72675 15.84 9.96015 15.84H15.1868C15.5476 15.84 15.8402 15.5475 15.8402 15.1867V0.813331C15.8402 0.452519 15.5476 0.160019 15.1868 0.16Z"
-                    fill="black" />
-                </svg>
-
-              </span>
-
-              <span>
-                Sign in
-              </span>
-            </a>
-          </li>
         </ul>
-        <!-- <i class="mobile-nav-toggle d-xl-none bi bi-list"></i> -->
-        <!-- <i class="mobile-nav-toggle d-xl-none bi bi-list"></i> -->
+
         <span class="d-lg-none d-md-none d-sm-block d-block mobile_toggle">
           <input type="checkbox" id="tmenu">
           <label for="tmenu" class="micon">
@@ -127,7 +177,7 @@
     </span>
     </nav>
 
-    <a class="btn-getstarted flex-md-shrink-0" href="index.php#about"> Get Started <i class="bi bi-chevron-right fs-6 fw-bold"></i></a>
+    <a class="btn-getstarted flex-md-shrink-0" href="index.php#about"> My Gift Cards<i class="bi bi-chevron-right fs-6 fw-bold"></i></a>
 
 
     <!-- hidden menu -->
@@ -135,7 +185,20 @@
 
     </div>
   </header>
+  <!-- old headerr -->
 
+
+
+
+  <!-- Floating Logo Container -->
+  <div class="floating-logo-container">
+  
+    <a href="#" title="Back to Whisky Club Main Site">
+      <img src="assets/img/float-icon.png"
+        alt="Whisky Club Logo"
+        onerror="this.onerror=null; this.src='assets/img/float-icon.png';">
+    </a>
+  </div>
 
   <div class="hidden-menu" style="display: none;">
     <div class="container-fluid">
@@ -152,19 +215,19 @@
                 <a href="all-brands.php">Brands </a>
 
               </li>
-              <li class="">
+              <li class="mb-5">
                 <a href="contact.php">Contact</a>
 
               </li>
 
-              <li class="mt-auto btn_div">
+              <li class="mb-5">
                 <div class=" gs_phne_1 mb-4 ">
-                  <a href="#" class="btn-get-started"> <span class="me-2"> 
-                  <svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M10.9214 8.46224L7.65475 11.7289C7.29891 12.0847 6.69133 11.9219 6.56109 11.4359C6.50064 11.2103 6.56514 10.9696 6.73028 10.8044L8.8822 8.65333H1.31251C0.809577 8.65333 0.495239 8.10889 0.746708 7.67334C0.86342 7.47119 1.07908 7.34666 1.31251 7.34667H8.8822L6.73028 5.19557C6.37445 4.83974 6.53725 4.23215 7.02332 4.10192C7.24891 4.04147 7.4896 4.10597 7.65475 4.2711L10.9214 7.53777C11.1769 7.79297 11.1769 8.20704 10.9214 8.46224ZM15.6858 0.160004H10.4592C9.95624 0.160004 9.6419 0.704447 9.89337 1.14C10.0101 1.34213 10.2258 1.46666 10.4592 1.46667H15.0325V14.5333H10.4592C9.95624 14.5333 9.6419 15.0778 9.89337 15.5133C10.0101 15.7155 10.2258 15.84 10.4592 15.84H15.6858C16.0467 15.84 16.3392 15.5475 16.3392 15.1867V0.813335C16.3392 0.452522 16.0467 0.160022 15.6858 0.160004Z" fill="black"/>
-</svg>
+                  <a href="#" class="btn-get-started"> <span class="me-2">
+                      <svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M10.9214 8.46224L7.65475 11.7289C7.29891 12.0847 6.69133 11.9219 6.56109 11.4359C6.50064 11.2103 6.56514 10.9696 6.73028 10.8044L8.8822 8.65333H1.31251C0.809577 8.65333 0.495239 8.10889 0.746708 7.67334C0.86342 7.47119 1.07908 7.34666 1.31251 7.34667H8.8822L6.73028 5.19557C6.37445 4.83974 6.53725 4.23215 7.02332 4.10192C7.24891 4.04147 7.4896 4.10597 7.65475 4.2711L10.9214 7.53777C11.1769 7.79297 11.1769 8.20704 10.9214 8.46224ZM15.6858 0.160004H10.4592C9.95624 0.160004 9.6419 0.704447 9.89337 1.14C10.0101 1.34213 10.2258 1.46666 10.4592 1.46667H15.0325V14.5333H10.4592C9.95624 14.5333 9.6419 15.0778 9.89337 15.5133C10.0101 15.7155 10.2258 15.84 10.4592 15.84H15.6858C16.0467 15.84 16.3392 15.5475 16.3392 15.1867V0.813335C16.3392 0.452522 16.0467 0.160022 15.6858 0.160004Z" fill="black"></path>
+                      </svg>
 
-                  </span> Sign in </a>
+                    </span> Sign in </a>
                 </div>
 
                 <div class=" gs_phne">

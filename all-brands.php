@@ -68,8 +68,194 @@
           </button>
         </div>
 
-      
 
+        <!-- mobile slider sec -->
+        <div class="nbs_sldier overflow-hidden ">
+          <div class="swiper init-swiper  overflow-visible" data-aos="fade-up" data-aos-delay="100">
+            <script type="application/json" class="swiper-config">
+              {
+
+                "loop": true,
+                "autoplay": {
+                  "delay": 2000
+                },
+
+
+
+                "breakpoints": {
+                  "320": {
+                    "slidesPerView": 1.1,
+                    "spaceBetween": 20,
+                    "watchSlidesProgress": true
+                  },
+                  "480": {
+                    "slidesPerView": 1.1,
+                    "spaceBetween": 20
+                  },
+                  "640": {
+                    "slidesPerView": 4,
+                    "spaceBetween": 20
+                  },
+                  "992": {
+                    "slidesPerView": 6,
+                    "spaceBetween": 20
+                  }
+                }
+              }
+            </script>
+            <div class="swiper-wrapper align-items-center ">
+
+              <div class="swiper-slide">
+                <div class="slider-bg position-relative">
+
+                  <picture>
+                    <!-- Mobile image (shows on screens up to 767px wide) -->
+                    <source media="(max-width: 767px)" srcset="assets/img/mobile-bg.png">
+
+                    <!-- Desktop image (shows on screens 768px and wider) -->
+                    <source media="(min-width: 768px)" srcset="assets/img/banner.png">
+
+                    <!-- Fallback image -->
+                    <img src="assets/img/banner.png" alt="shopnow" class="img-fluid">
+                  </picture>
+                  <div class="centered">
+                    <h5>
+                      Get <s>5%</s> <span class="blue">8%</span> back in site <br> credit
+                    </h5>
+
+                    <p>
+                      Be quick - increased until Tuesday!
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="slider-bg position-relative">
+                  <!-- <img src="assets/img/banner.png" alt="banner" class="img-fluid"> -->
+                  <picture>
+                    <!-- Mobile image (shows on screens up to 767px wide) -->
+                    <source media="(max-width: 767px)" srcset="assets/img/mobile-bg.png">
+
+                    <!-- Desktop image (shows on screens 768px and wider) -->
+                    <source media="(min-width: 768px)" srcset="assets/img/banner.png">
+
+                    <!-- Fallback image -->
+                    <img src="assets/img/banner.png" alt="shopnow" class="img-fluid">
+                  </picture>
+                  <div class="centered">
+                    <h5>
+                      Get <s>5%</s> <span class="blue">8%</span> back in site <br> credit
+                    </h5>
+
+                    <p>
+                      Be quick - increased until Tuesday!
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="slider-bg position-relative">
+                  <!-- <img src="assets/img/banner.png" alt="banner" class="img-fluid"> -->
+                  <picture>
+                    <!-- Mobile image (shows on screens up to 767px wide) -->
+                    <source media="(max-width: 767px)" srcset="assets/img/mobile-bg.png">
+
+                    <!-- Desktop image (shows on screens 768px and wider) -->
+                    <source media="(min-width: 768px)" srcset="assets/img/banner.png">
+
+                    <!-- Fallback image -->
+                    <img src="assets/img/banner.png" alt="shopnow" class="img-fluid">
+                  </picture>
+                  <div class="centered">
+                    <h5>
+                      Get <s>5%</s> <span class="blue">8%</span> back in site <br> credit
+                    </h5>
+
+                    <p>
+                      Be quick - increased until Tuesday!
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="slider-bg position-relative">
+
+                  <picture>
+                    <!-- Mobile image (shows on screens up to 767px wide) -->
+                    <source media="(max-width: 767px)" srcset="assets/img/mobile-bg.png">
+
+                    <!-- Desktop image (shows on screens 768px and wider) -->
+                    <source media="(min-width: 768px)" srcset="assets/img/banner.png">
+
+                    <!-- Fallback image -->
+                    <img src="assets/img/banner.png" alt="shopnow" class="img-fluid">
+                  </picture>
+                  <div class="centered">
+                    <h5>
+                      Get <s>5%</s> <span class="blue">8%</span> back in site <br> credit
+                    </h5>
+
+                    <p>
+                      Be quick - increased until Tuesday!
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="slider-bg position-relative">
+                  <!-- <img src="assets/img/banner.png" alt="banner" class="img-fluid"> -->
+                  <picture>
+                    <!-- Mobile image (shows on screens up to 767px wide) -->
+                    <source media="(max-width: 767px)" srcset="assets/img/mobile-bg.png">
+
+                    <!-- Desktop image (shows on screens 768px and wider) -->
+                    <source media="(min-width: 768px)" srcset="assets/img/banner.png">
+
+                    <!-- Fallback image -->
+                    <img src="assets/img/banner.png" alt="shopnow" class="img-fluid">
+                  </picture>
+                  <div class="centered">
+                    <h5>
+                      Get <s>5%</s> <span class="blue">8%</span> back in site <br> credit
+                    </h5>
+
+                    <p>
+                      Be quick - increased until Tuesday!
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="slider-bg position-relative">
+                  <!-- <img src="assets/img/banner.png" alt="banner" class="img-fluid"> -->
+                  <picture>
+                    <!-- Mobile image (shows on screens up to 767px wide) -->
+                    <source media="(max-width: 767px)" srcset="assets/img/mobile-bg.png">
+
+                    <!-- Desktop image (shows on screens 768px and wider) -->
+                    <source media="(min-width: 768px)" srcset="assets/img/banner.png">
+
+                    <!-- Fallback image -->
+                    <img src="assets/img/banner.png" alt="shopnow" class="img-fluid">
+                  </picture>
+                  <div class="centered">
+                    <h5>
+                      Get <s>5%</s> <span class="blue">8%</span> back in site <br> credit
+                    </h5>
+
+                    <p>
+                      Be quick - increased until Tuesday!
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+            <!-- <div class="swiper-pagination"></div> -->
+          </div>
+        </div>
+           <!-- ends -->
 
         <div class="d-flex flex-column flex-md-row position-relative " data-aos="fade-up" data-aos-delay="200">
           <div class="search-container">
@@ -79,7 +265,10 @@
               </svg>
 
             </span>
-            <input type="text" placeholder="Search for a brand (e.g. Tesco, Argos, Asda, Currys, etc)" class="search-input">
+            <input type="text" placeholder="Search for a brand (e.g. Tesco, Argos, Asda, Currys, etc)"
+              class="search-input d-lg-block d-sm-none d-none">
+            <input type="text" placeholder="Search for a brand"
+              class="search-input d-lg-none d-sm-block d-block">
             <button class="search-button">Search
               <i class="bi bi-arrow-right ms-3"></i>
             </button>
@@ -88,6 +277,7 @@
         <!-- ends -->
       </div>
     </div>
+  </div>
 </section>
 <!-- all brands Section -->
 
