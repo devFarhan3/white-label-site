@@ -350,5 +350,4 @@
 
 
 <!-- footer sec -->
-
 <?php include 'footer.php'; ?>

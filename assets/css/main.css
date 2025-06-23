@@ -5273,8 +5273,8 @@ marquee {
 .footer {
   background-color: #F9FAFB;
 
- padding-top: clamp(40px, calc(2.5rem + 2vw), 80px);
- padding-bottom: clamp(40px, calc(2.5rem + 2vw), 80px);
+  padding-top: clamp(40px, calc(2.5rem + 2vw), 80px);
+  padding-bottom: clamp(40px, calc(2.5rem + 2vw), 80px);
   color: #343a40;
   /* Dark text color */
 }
@@ -5400,3 +5400,599 @@ hr {
 }
 
 /* ends header */
+
+
+
+/* new page section css for raffle house  farhan */
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+
+
+:root {
+  --raffle-heading: "Archivo Black", sans-serif;
+  --raffle-yelow: #DEE865;
+
+}
+
+.pb_80 {
+  padding-bottom: 80px;
+}
+
+
+.raffle_house_home h1 {
+  font-family: var(--raffle-heading);
+  font-style: normal;
+  font-weight: 800;
+  font-size: clamp(32px, 5vw, 58px);
+  line-height: clamp(40px, 5vw, 58px);
+  margin-bottom: 0px;
+  color: var(--white-color);
+}
+
+.raffle_house_home {
+  background-image: url(../img/raffle-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 73dvh;
+  background-position: 100% 100%;
+  padding: 90px 0px;
+  display: flex;
+  position: relative;
+  border-radius: 40px;
+  margin: 15px 15px 0px 15px;
+  margin-bottom: 520px;
+  position: relative;
+}
+
+.raffle_gift_cards {
+  background: var(--raffle-yelow);
+  border-radius: 40px;
+  width: 90%;
+  margin: 0 auto;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  z-index: 99;
+}
+
+.raffle_text_sec {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.card-custom {
+
+  border: none;
+
+  cursor: pointer;
+}
+
+.card-custom:hover {
+  transform: translateY(-5px);
+  /* box-shadow: 0 6px 25px rgba(0, 0, 0, 0.15); */
+  transition: transform 0.3s ease-in-out;
+}
+
+
+
+
+.card-img-container img {
+  max-width: 90%;
+  max-height: 100%;
+  object-fit: cover;
+  height: 100%;
+}
+
+.card-body-custom {
+  font-family: 'Plus Jakarta Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+  color: #000000;
+  margin-top: 20px;
+}
+
+.card-body-custom strong {
+  font-family: 'Plus Jakarta Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+  color: #000000;
+}
+
+.none-of-these-btn {
+  display: block;
+  margin: 48px auto 0;
+  width: fit-content;
+  font-family: var(--raffle-heading);
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  background: #FFFFFF;
+  border-radius: 99px;
+  padding: 16px 40px;
+  line-height: 32px;
+  letter-spacing: -0.03em;
+  text-decoration-line: underline;
+  color: #043C3A;
+  /* font-weight: bold; */
+}
+
+.raffle_gift_cards .section-title {
+  text-align: center;
+  padding-bottom: 40px;
+  position: relative;
+}
+
+.raffle_gift_cards .section-title {
+  font-family: 'Plus Jakarta Sans';
+  font-style: normal;
+  font-weight: 600;
+
+  text-align: center;
+  font-size: clamp(16px, 5vw, 24px);
+  line-height: clamp(24px, 5vw, 32px);
+
+  color: #000000;
+}
+
+.none-of-these-btn:hover {
+  background-color: #033b3a;
+  border-color: #033b3a;
+  color: #dee865;
+}
+
+
+/* good news page css */
+
+.goodnews-section {
+  background-color: #033B3A;
+  border-radius: 40px;
+  margin: 15px 15px 0px 15px;
+}
+
+.section-padding {
+  padding: 60px 0;
+}
+
+
+
+.card_custom_text h2 {
+  font-family: var(--heading-font);
+  font-style: normal;
+  font-weight: 800;
+  margin-bottom: 16px;
+  color: #FFFFFF;
+  font-size: clamp(32px, 5vw, 48px);
+  line-height: clamp(40px, 5vw, 58px);
+
+}
+
+.card_custom_text p {
+  font-family: 'Plus Jakarta Sans';
+  font-style: normal;
+  font-weight: 400;
+
+  color: #FFFFFF;
+  font-size: clamp(16px, 5vw, 20px);
+  line-height: clamp(32px, 5vw, 32px);
+
+}
+
+.btn-custom-yellow {
+  border: none;
+  width: 65%;
+  text-decoration: none;
+  background: #DEE965;
+  border-radius: 99px;
+  padding: 16px 40px;
+  font-family: var(--heading-font);
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 32px;
+  letter-spacing: -0.03em;
+  color: #043C3A;
+}
+
+.btn-custom-yellow:hover {
+  background-color: #e6c500;
+  color: #000;
+}
+
+
+.select_brands {
+  max-width: 890px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+
+#problem_page .brands-section img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+  height: 100%;
+  margin: 0px;
+  height: 300px;
+  margin: 0px;
+  max-height: 120px;
+}
+
+
+.how-it-works-section h2,
+.select_brands {
+  margin-bottom: 40px;
+  font-family: var(--heading-font);
+  font-style: normal;
+  font-weight: 800;
+
+  color: #000000;
+  font-size: clamp(28px, 5vw, 48px);
+  line-height: clamp(36px, 5vw, 58px);
+
+}
+
+.card_custom_text {
+  padding-left: 50px;
+}
+
+
+
+.how-it-works-section .step-text {
+  font-family: 'Plus Jakarta Sans';
+  font-style: normal;
+  font-weight: 400;
+
+  color: #000000;
+  font-size: clamp(16px, 5vw, 20px);
+  line-height: clamp(26px, 5vw, 32px);
+
+}
+
+.how-it-works-section .step-number {
+  /* background-color: #033B3A; */
+  background-image: url(../img/bg-round.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  border-radius: 50%;
+  width: 55px;
+  height: 55px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  margin-right: 15px;
+  font-family: 'Plus Jakarta Sans';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: -0.02em;
+  color: #FFFFFF;
+  margin-bottom: 16px;
+  font-size: 1.1em;
+  flex-shrink: 0;
+  margin-right: 15px;
+  position: relative;
+  /* Essential for pseudo-elements */
+  z-index: 1;
+  /* Ensure the number is above the line */
+}
+
+.how-it-works-section {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+
+@media (min-width: 992px) {
+  .how-it-works-section .col-lg-3:not(:last-child) .step-number::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 100%;
+
+    width: 300px;
+
+    height: 2px;
+    border-top: 2px dashed #DBCAB8;
+    /* Dashed line style */
+    transform: translateY(-50%);
+    z-index: -1;
+    /* Places the line behind the step number circle */
+  }
+}
+
+/* Horizontal dashed line for medium screens (md breakpoint - 2 columns) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .how-it-works-section .col-md-6:nth-child(odd) .step-number::after {
+    /* Applies only to the first step in each pair */
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    width: 80px;
+    /* Length of the dashed line, visually adjusted */
+    height: 2px;
+    border-top: 2px dashed #ccc;
+    transform: translateY(-50%);
+    z-index: -1;
+  }
+
+  .how-it-works-section .col-md-6:nth-child(even) .step-number::after {
+    display: none;
+    /* Hides the line for the second step in each pair */
+  }
+}
+
+/* Vertical dashed line for small screens (sm breakpoint - 1 column) */
+@media (max-width: 767.98px) {
+  .how-it-works-section .step-card {
+    flex-direction: column;
+
+    align-items: center;
+
+    text-align: center;
+    margin-bottom: 25px;
+
+  }
+
+  .how-it-works-section .step-number {
+    margin-right: 0;
+    /* Removes horizontal margin */
+    margin-bottom: 10px;
+    /* Adds space below the number */
+  }
+
+  .how-it-works-section .col-sm-12:not(:last-child) .step-number::after {
+    display: none;
+  }
+}
+
+.highlight-section {
+  background-color: #DEE865;
+  color: #000;
+  border-radius: 40px;
+  padding: 64px;
+  text-align: center;
+  max-width: 95%;
+  margin: 0 auto;
+}
+
+.highlight-section h3 {
+  /* margin-bottom: 20px; */
+  font-family: var(--heading-font);
+  font-style: normal;
+  font-weight: 800;
+
+  font-size: clamp(32px, 5vw, 48px);
+  line-height: clamp(40px, 5vw, 64px);
+
+  text-align: center;
+  color: #033B3A;
+}
+
+.highlight-section p {
+  font-family: var(--heading-font);
+  font-style: normal;
+  font-weight: 500;
+  margin-bottom: 40px;
+  font-size: clamp(25px, 5vw, 32px);
+  line-height: clamp(40px, 5vw, 64px);
+
+  text-align: center;
+  color: #000000;
+}
+
+.highlight-section .btn-light-green {
+  border: none;
+  text-decoration: none;
+  background: #FBFFC7;
+  border-radius: 8px;
+  padding: 16px 24px;
+  font-family: 'Plus Jakarta Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  text-align: center;
+  color: #000000;
+}
+
+.highlight-section strong {
+  font-family: 'Plus Jakarta Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 32px;
+  text-align: center;
+  color: #000000;
+}
+
+.highlight-section .btn-light-green:hover {
+  background-color: #c0d87a;
+}
+
+.brands-section {
+  text-align: center;
+
+}
+
+.brands-section P {
+  font-family: 'Plus Jakarta Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  text-align: center;
+  color: #000000 ! IMPORTANT;
+  margin-bottom: 0px;
+}
+
+.brands-section img {
+  max-height: 50px;
+  margin: 20px 30px;
+  opacity: 1;
+}
+
+.brands-section .btn-view-all {
+  background-color: #ffda00;
+  /* Yellow from image */
+  color: #000;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 30px;
+  text-decoration: none;
+  margin-top: 40px;
+}
+
+.brands-section .btn-view-all:hover {
+  background-color: #e6c500;
+}
+
+/* Responsive adjustments */
+@media (max-width: 767.98px) {
+  .section-padding {
+    padding: 40px 0;
+  }
+
+
+
+  .how-it-works-section .step-card {
+    flex-direction: column;
+    text-align: start;
+  }
+
+  .how-it-works-section .step-number {
+    margin-right: 0;
+    margin-bottom: 30px;
+  }
+
+  .brands-section img {
+    margin: 15px 15px;
+  }
+}
+
+/* ends good news  */
+
+
+
+@media screen and (min-width: 1024px) and (min-height: 600px) {
+  .raffle_gift_cards {
+    top: 65%;
+  }
+
+  .raffle_house_home {
+    margin-bottom: 600px;
+  }
+
+}
+
+/* Responsive adjustments */
+@media (max-width: 767.98px) {
+
+
+
+
+  .card-img-container {
+    height: 200px;
+  }
+}
+
+
+@media (max-width: 640px) {
+
+
+  .raffle_house_home {
+    min-height: 46dvh;
+    margin-bottom: 140rem;
+
+    width: 95%;
+    position: relative;
+    background: #033B3A;
+    border-radius: 16px;
+  }
+
+  .raffle_gift_cards {
+    top: 45%;
+    padding: 40px 20px;
+  }
+
+
+  #card-container {
+    text-align: center;
+  }
+
+  .card-body-custom {
+
+    padding-left: 25px;
+    text-align: start;
+    margin-top: 5px;
+  }
+
+  .raffle_text_sec {
+    max-width: 300px;
+  }
+
+  .card_custom_text {
+    padding: 40px 10px;
+    text-align: center;
+    padding-top: 0;
+
+  }
+
+  .btn-custom-yellow {
+    width: 100%;
+  }
+
+  .how-it-works-section {
+    max-width: 100%;
+  }
+
+  .highlight-section {
+    border-radius: 16px;
+    padding: 25px;
+
+  }
+
+  .brands-section {
+    padding: 24px;
+  }
+
+
+  #problem_page .brands-section {
+    padding: 50px 0px 0px 0px;
+  }
+
+  .card-img-container img {
+
+    object-fit: contain;
+
+  }
+
+
+
+}
+
+@media (min-width: 320px) and (max-width: 375px) {
+  .raffle_house_home {
+    min-height: 60dvh;
+
+  }
+
+  .raffle_gift_cards {
+    top: 60%;
+    padding: 40px 20px;
+  }
+}
+
+
+/* new page section css for raffle house  farhan ends */
